@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8785C8AB-EB01-4A05-B955-A83836B770CD}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="PiratenKarpern.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="unitTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PiratenKarpern">
+        <MSBuild Projects="PiratenKarpern.dproj"/>
+    </Target>
+    <Target Name="PiratenKarpern:Clean">
+        <MSBuild Projects="PiratenKarpern.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PiratenKarpern:Make">
+        <MSBuild Projects="PiratenKarpern.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="unitTests">
+        <MSBuild Projects="unitTests.dproj"/>
+    </Target>
+    <Target Name="unitTests:Clean">
+        <MSBuild Projects="unitTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="unitTests:Make">
+        <MSBuild Projects="unitTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PiratenKarpern;unitTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PiratenKarpern:Clean;unitTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PiratenKarpern:Make;unitTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
