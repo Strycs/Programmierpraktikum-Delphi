@@ -8,7 +8,7 @@
 
 
 - [Das Windows Programm(EXE)](https://lms.fh-wedel.de/pluginfile.php/59387/mod_book/chapter/646/PiratenKapern.exe)
-- [Das Benutzerhandbuch](https://lms.fh-wedel.de/pluginfile.php/59387/mod_book/chapter/646/PiratenKapern.exe)
+- [Das Benutzerhandbuch](https://github.com/Strycs/Programmierpraktikum-Delphi/blob/main/Dokumentation/Benutzerhandbuch.pdf)
 - [Das Programmierhandbuch](https://lms.fh-wedel.de/pluginfile.php/59387/mod_book/chapter/646/PiratenKapern.exe)
 - [Der Source-Code ](https://lms.fh-wedel.de/pluginfile.php/59387/mod_book/chapter/646/PiratenKapern.exe)
 
