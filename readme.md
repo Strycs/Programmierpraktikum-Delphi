@@ -7,10 +7,10 @@
 
 
 
-- [Das Windows Programm(EXE)](https://lms.fh-wedel.de/pluginfile.php/59387/mod_book/chapter/646/PiratenKapern.exe)
+- [Das Windows Programm(EXE)](https://github.com/Strycs/Programmierpraktikum-Delphi/blob/main/ausf%C3%BCrbares_Programm/PiratenKarpern.exe)
 - [Das Benutzerhandbuch](https://github.com/Strycs/Programmierpraktikum-Delphi/blob/main/Dokumentation/Benutzerhandbuch.pdf)
-- [Das Programmierhandbuch](https://lms.fh-wedel.de/pluginfile.php/59387/mod_book/chapter/646/PiratenKapern.exe)
-- [Der Source-Code ](https://lms.fh-wedel.de/pluginfile.php/59387/mod_book/chapter/646/PiratenKapern.exe)
+- [Das Programmierhandbuch](https://github.com/Strycs/Programmierpraktikum-Delphi/blob/main/Dokumentation/Programmierhandbuch.pdf)
+- [Der Source-Code ](https://github.com/Strycs/Programmierpraktikum-Delphi/tree/main/Quellcode)
 
 
 ![Beispielbild](https://lms.fh-wedel.de/pluginfile.php/59387/mod_book/chapter/646/Beispielbild.jpg)
