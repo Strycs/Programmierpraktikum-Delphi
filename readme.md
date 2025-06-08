@@ -3,6 +3,9 @@
 
 **Piraten Kapern** ist ein kurzweiliges Würfelspiel für 2–4 Spieler. Schlüpfe in die Rolle eines alten Seeräubers und tritt gegen andere holzbeinige Zauselbärte an! Hier ist Spaß garrrrrrrrrrrantiert 😄
 
+
+![titlePicture](https://github.com/user-attachments/assets/564cfec2-afff-4dc2-bb02-5829f701f09c)
+
 ## Realisierung
 
 
@@ -11,10 +14,6 @@
 - [Das Benutzerhandbuch](https://github.com/Strycs/Programmierpraktikum-Delphi/blob/main/Dokumentation/Benutzerhandbuch.pdf)
 - [Das Programmierhandbuch](https://github.com/Strycs/Programmierpraktikum-Delphi/blob/main/Dokumentation/Programmierhandbuch.pdf)
 - [Der Source-Code ](https://github.com/Strycs/Programmierpraktikum-Delphi/tree/main/Quellcode)
-
-
-![Beispielbild](https://lms.fh-wedel.de/pluginfile.php/59387/mod_book/chapter/646/Beispielbild.jpg)
-
 
 
 
